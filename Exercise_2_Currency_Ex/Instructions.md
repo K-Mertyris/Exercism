@@ -4,10 +4,12 @@ The instructions for this exercise can be found on the Exercism website. Please 
 
 ## Links
 
-Exercism Website: https://exercism.org/
-Python Track: https://exercism.org/tracks/python
-Numbers Concept: https://exercism.org/tracks/python/concepts/numbers
-Exercise link: https://exercism.org/tracks/python/exercises/currency-exchange
+Resource links:
+
+- Exercism Website: https://exercism.org/
+- Python Track: https://exercism.org/tracks/python
+- Numbers Concept: https://exercism.org/tracks/python/concepts/numbers
+- Exercise link: https://exercism.org/tracks/python/exercises/currency-exchange
 
 ## Requirements
 
