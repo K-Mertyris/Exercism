@@ -8,7 +8,7 @@ Resource links:
 
 - [Exercism Website](https://exercism.org/)
 - [Python Track](https://exercism.org/tracks/python)
-- [Numbers Concept](https://exercism.org/tracks/python/concepts/basics)
+- [Basics Concept](https://exercism.org/tracks/python/concepts/basics)
 - [Exercise link](https://exercism.org/tracks/python/exercises/guidos-gorgeous-lasagna)
 
 ## Requirements
