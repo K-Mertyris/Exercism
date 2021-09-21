@@ -4,10 +4,12 @@ The instructions for this exercise can be found on the Exercism website. Please 
 
 ## Links
 
-Exercism Website: https://exercism.org/
-Python Track: https://exercism.org/tracks/python
-Numbers Concept: https://exercism.org/tracks/python/concepts/numbers
-Exercise link: https://exercism.org/tracks/python/exercises/currency-exchange
+Resource links:
+
+- [Exercism Website](https://exercism.org/)
+- [Python Track](https://exercism.org/tracks/python)
+- [Numbers Concept](https://exercism.org/tracks/python/concepts/numbers)
+- [Exercise link](https://exercism.org/tracks/python/exercises/currency-exchange)
 
 ## Requirements
 
@@ -20,3 +22,9 @@ Requirements for this exercise:
 5. Calculate value after exchange
 6. Calculate unexchangeable value
 
+## Current Status
+
+2021-09-20:
+
+- Status: In progress
+- Notes: After running the checks, the final two requirements are failing. Will need to circle back, pseudocode them and try again.
