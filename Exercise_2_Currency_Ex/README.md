@@ -28,3 +28,10 @@ Requirements for this exercise:
 
 - Status: In progress
 - Notes: After running the checks, the final two requirements are failing. Will need to circle back, pseudocode them and try again.
+
+2021-09-21:
+
+- Status: In progress
+- Notes:
+  - First PR tonight - added pseudocode for the `exchangable_value` function.
+    - Result: Pseudocode is correct, coding followed pseudocode, tests passed. Keeping pseudocode in until all tests pass, then removing all pseudocode for final commit.
