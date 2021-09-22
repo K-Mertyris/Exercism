@@ -52,6 +52,14 @@ def exchangeable_value(budget, exchange_rate, spread, denomination):
     :return: int - maximum value you can get
     """
 
+    # Pseudocode
+    # Calculate the max value based on budget, exchange_rate, spread & denomination
+    # Calculate fees -> exchange rate + percentage taken as fee (exchange rate * spread as a percentage) Note that spread comes in as an int
+    # Calculate how much can be exchanged based on fees (rate + fee) -> budget / fees
+    # Calculate how MANY bills of a denomination will be received based on exchanged value using floor division -> exchanged value // denomination
+    # Calculate max value of exchanged currency -> bills received * denomination
+    # Return max value
+
     # Return max value of exchanged currency by dividing the budget by the exchange rate + the spread (as a percentage), 
     # then using floor division to determine how many bills can be exchanged
     return get_number_of_bills((budget/(exchange_rate + (exchange_rate/spread))), denomination) * denomination
@@ -65,6 +73,8 @@ def unexchangeable_value(budget, exchange_rate, spread, denomination):
     :param denomination: int - the value of a single bill.
     :return: int - unexchangeable value
     """
+
+    # Not going to touch this function right now, see if it passes its checks once exchangeable_value is updated and passes tests
 
     # Determine total fee rate
     calculated_exchange_fees = exchange_rate + (exchange_rate / spread)
