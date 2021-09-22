@@ -34,4 +34,6 @@ Requirements for this exercise:
 - Status: In progress
 - Notes:
   - First PR tonight - added pseudocode for the `exchangable_value` function.
+  - Second PR tonight - coded solution based on pseudocode
     - Result: Pseudocode is correct, coding followed pseudocode, tests passed. Keeping pseudocode in until all tests pass, then removing all pseudocode for final commit.
+  - Third PR tonight - added pseudocode for the `unexchangeable_value` function

@@ -82,7 +82,16 @@ def unexchangeable_value(budget, exchange_rate, spread, denomination):
     :return: int - unexchangeable value
     """
 
-    # Not going to touch this function right now, see if it passes its checks once exchangeable_value is updated and passes tests
+    # Pseudocode
+    # Calculate value remaining after currency exchanged
+    # Calculate fees -> exchange rate + percentage taken as fee (exchange rate * spread as a percentage) Note that spread comes in as an int
+    # Calculate how much can be exchanged based on fees (rate + fee) -> budget / fees
+    # Calculate how MANY bills of a denomination will be received based on exhcnaged value using floor division -> exchanged value // denomination
+    # Calculate how much can be exchanged -> number of bills * denomination
+    # Calculate left over value of budget -> budget - total exchanged
+    # Cast remaining value as int, rounding down
+    # Return remaining value
+
 
     # Determine total fee rate
     calculated_exchange_fees = exchange_rate + (exchange_rate / spread)
