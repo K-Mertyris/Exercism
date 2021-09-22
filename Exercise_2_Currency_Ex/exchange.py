@@ -60,9 +60,17 @@ def exchangeable_value(budget, exchange_rate, spread, denomination):
     # Calculate max value of exchanged currency -> bills received * denomination
     # Return max value
 
-    # Return max value of exchanged currency by dividing the budget by the exchange rate + the spread (as a percentage), 
-    # then using floor division to determine how many bills can be exchanged
-    return get_number_of_bills((budget/(exchange_rate + (exchange_rate/spread))), denomination) * denomination
+    # Calculate total fees, change spread to a percentage
+    fees = exchange_rate * (1 + (spread / 100))
+
+    # Calculate value of budget after exchange and fees taken
+    exchanged_value = budget / fees
+
+    # Calculate number of bills that can be exchanged based on denomination
+    number_of_bills = get_number_of_bills(exchanged_value, denomination)
+
+    # Return value of exchange based on # of bills and denomination
+    return get_value(denomination, number_of_bills)
 
 def unexchangeable_value(budget, exchange_rate, spread, denomination):
     """
