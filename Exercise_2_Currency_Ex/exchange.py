@@ -92,16 +92,22 @@ def unexchangeable_value(budget, exchange_rate, spread, denomination):
     # Cast remaining value as int, rounding down
     # Return remaining value
 
+    # Calculate total fees, change spread to a percentage
+    fees = exchange_rate * (1 + (spread / 100))
 
-    # Determine total fee rate
-    calculated_exchange_fees = exchange_rate + (exchange_rate / spread)
+    # Calculate value of budget after exchange and fees taken
+    exchanged_value = budget / fees
 
-    # Determine total amount to exchange less fees
-    total_to_exchange = estimate_value(budget, calculated_exchange_fees)
+    # Calculate number of bills that can be exchanged based on denomination
+    number_of_bills = get_number_of_bills(exchanged_value, denomination)
 
-    # Determine how much can be exchanged based on bill denomination
-    can_exchange = get_number_of_bills(total_to_exchange, denomination)
+    # Calculate exchangeable value
+    exchanging_value = get_value(denomination, number_of_bills)
+    
+    # Calculating leftover budget (change)
+    remaining_budget = exchanged_value - exchanging_value
 
-    leftover_amount = get_change(total_to_exchange, (can_exchange * denomination))
+    # Cast remaining budget as int, round down, return value
+    remaining_budget = int(remaining_budget)
 
-    return leftover_amount
+    return remaining_budget
