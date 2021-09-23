@@ -43,4 +43,4 @@ Requirements for this exercise:
 - Status: Completed
 - Notes:
   - Finished updating code to pass all tests. The error that I was running into was that I forgot to **store** the final variable after casting it as an `int`. Once that minor change was made, all tests passed.
-  - Creating an `exchange.md` file to capture all the pseudocode for the app so I can move it out of the main app and just have the code and brief comments contained in this version of the app.
+  - Creating an `exchange.md` [file](exchange.md) to capture all the pseudocode for the app so I can move it out of the main app and just have the code and brief comments contained in this version of the app.
