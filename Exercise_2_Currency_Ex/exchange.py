@@ -1,3 +1,7 @@
+"""
+Currency Exhcnage exercise. Calculates various amounts of currency exchange based on inputs from the user.
+"""
+
 def estimate_value(budget, exchange_rate):
     """
     Estimates the value of your currency to the target currency
@@ -52,14 +56,6 @@ def exchangeable_value(budget, exchange_rate, spread, denomination):
     :return: int - maximum value you can get
     """
 
-    # Pseudocode
-    # Calculate the max value based on budget, exchange_rate, spread & denomination
-    # Calculate fees -> exchange rate + percentage taken as fee (exchange rate * spread as a percentage) Note that spread comes in as an int
-    # Calculate how much can be exchanged based on fees (rate + fee) -> budget / fees
-    # Calculate how MANY bills of a denomination will be received based on exchanged value using floor division -> exchanged value // denomination
-    # Calculate max value of exchanged currency -> bills received * denomination
-    # Return max value
-
     # Calculate total fees, change spread to a percentage
     fees = exchange_rate * (1 + (spread / 100))
 
@@ -82,15 +78,7 @@ def unexchangeable_value(budget, exchange_rate, spread, denomination):
     :return: int - unexchangeable value
     """
 
-    # Pseudocode
-    # Calculate value remaining after currency exchanged
-    # Calculate fees -> exchange rate + percentage taken as fee (exchange rate * spread as a percentage) Note that spread comes in as an int
-    # Calculate how much can be exchanged based on fees (rate + fee) -> budget / fees
-    # Calculate how MANY bills of a denomination will be received based on exhcnaged value using floor division -> exchanged value // denomination
-    # Calculate how much can be exchanged -> number of bills * denomination
-    # Calculate left over value of budget -> budget - total exchanged
-    # Cast remaining value as int, rounding down
-    # Return remaining value
+    # TODO: Tech debt - refactor code to use exchangeable_value function
 
     # Calculate total fees, change spread to a percentage
     fees = exchange_rate * (1 + (spread / 100))
