@@ -4,9 +4,7 @@ The purpose of this doc is to hold all the pseudocode for the `strings.py` app. 
 
 Placing the pseudocode in this document will also allow me to keep the codebase clean, ensuring it only has comments for the specific functions called and steps taken.
 
-## Pseudocode
-
-Goal: pass all tests without errors
+## Concepts
 
 Concepts highlighted in the introduction:
 
@@ -29,6 +27,10 @@ Concepts highlighted in the introduction:
 - Since strings are arrays (my words), they can be iterated through
   - Individual code items: `for item in <str>`
   - Indexes with items: `for index, item in enumerate(<str>)`
+
+## Pseudocode
+
+Goal: pass all tests without errors
 
 `def add_prefix_un(word):`  
 `def make_word_groups(vocab_words):`  
