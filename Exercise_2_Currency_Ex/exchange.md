@@ -6,12 +6,12 @@ Placing the pseudocode in this document will also allow me to keep the codebase 
 
 ## Pseudocode
 
-`def estimate_value(budget, exchange_rate):`
-`def get_change(budget, exchanging_value):`
-`def get_value(denomination, number_of_bills):`
-`def get_number_of_bills(budget, denomination):`
+`def estimate_value(budget, exchange_rate):`  
+`def get_change(budget, exchanging_value):`  
+`def get_value(denomination, number_of_bills):`  
+`def get_number_of_bills(budget, denomination):`  
 
-- No pseudocode written for these functions, please see the [README.md](/Exercise_2_Currency_Ex/README.md) for abbreviated instructions or the [code](exchange.py) for function details.
+No pseudocode written for these functions, please see the [README.md](/Exercise_2_Currency_Ex/README.md) for abbreviated instructions or the [code](exchange.py) for function details.
 
 `def exchangeable_value(budget, exchange_rate, spread, denomination):`
 
