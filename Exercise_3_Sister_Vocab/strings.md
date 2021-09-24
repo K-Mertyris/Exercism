@@ -32,7 +32,9 @@ Concepts highlighted in the introduction:
 
 Goal: pass all tests without errors
 
-`def add_prefix_un(word):`  
-`def make_word_groups(vocab_words):`  
-`def remove_suffix_ness(word):`  
-`def noun_to_verb(sentence, index):`
+```Python
+def add_prefix_un(word):
+def make_word_groups(vocab_words):
+def remove_suffix_ness(word):
+def noun_to_verb(sentence, index):
+```
