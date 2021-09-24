@@ -96,6 +96,4 @@ def unexchangeable_value(budget, exchange_rate, spread, denomination):
     remaining_budget = exchanged_value - exchanging_value
 
     # Cast remaining budget as int, round down, return value
-    remaining_budget = int(remaining_budget)
-
-    return remaining_budget
+    return int(remaining_budget)

@@ -6,16 +6,18 @@ Placing the pseudocode in this document will also allow me to keep the codebase 
 
 ## Pseudocode
 
-`def estimate_value(budget, exchange_rate):`  
-`def get_change(budget, exchanging_value):`  
-`def get_value(denomination, number_of_bills):`  
-`def get_number_of_bills(budget, denomination):`  
+```Python
+def estimate_value(budget, exchange_rate):
+def get_change(budget, exchanging_value):  
+def get_value(denomination, number_of_bills):
+def get_number_of_bills(budget, denomination):
+```
 
 No pseudocode written for these functions, please see the [README.md](/Exercise_2_Currency_Ex/README.md) for abbreviated instructions or the [code](exchange.py) for function details.
 
 `def exchangeable_value(budget, exchange_rate, spread, denomination):`
 
-``` Python
+```Python
     # Pseudocode
     # Calculate the max value based on budget, exchange_rate, spread & denomination
     # Calculate fees -> exchange rate + percentage taken as fee (exchange rate * spread as a percentage) Note that spread comes in as an int
@@ -27,7 +29,7 @@ No pseudocode written for these functions, please see the [README.md](/Exercise_
 
 `def unexchangeable_value(budget, exchange_rate, spread, denomination):`
 
-``` Python
+```Python
     # Pseudocode
     # Calculate value remaining after currency exchanged
     # Calculate fees -> exchange rate + percentage taken as fee (exchange rate * spread as a percentage) Note that spread comes in as an int
