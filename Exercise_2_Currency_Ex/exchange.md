@@ -8,7 +8,7 @@ Placing the pseudocode in this document will also allow me to keep the codebase 
 
 ```Python
 def estimate_value(budget, exchange_rate):
-def get_change(budget, exchanging_value):  
+def get_change(budget, exchanging_value):
 def get_value(denomination, number_of_bills):
 def get_number_of_bills(budget, denomination):
 ```
