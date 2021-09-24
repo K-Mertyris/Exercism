@@ -34,7 +34,33 @@ Goal: pass all tests without errors
 
 ```Python
 def add_prefix_un(word):
+  # Pseudocode:
+  # Take string and add "un"
+  # Store new string and then return OR encapsulate code in return statement
+
 def make_word_groups(vocab_words):
+  # Pseudocode:
+  # Read array
+  # Take array index[0] and concatenate at the beginning of index[1] through index[3]
+  # Store prefix and new values in single string separated by spaces and double colons <prefix> :: <str1> :: <str2> :: ...
+  # Return string
+
 def remove_suffix_ness(word):
+  # Pseudocode:
+  # Read string
+  # Parse string into two parts <root> + "ness"
+  # Take the root
+  # If root ends in "i", replace with "y"
+  # If root does not end in "i", do nothing
+  # Return root
+
 def noun_to_verb(sentence, index):
+  # Pseudocode:
+  # Read string (sentence)
+  # Use incoming index to parse a single word from the string (sentence)
+  #    Start at string[index] end at first instance of a space
+  #    If no space, end at period
+  #    If no space and no period, default to end of string
+  # Take word as root, append "en" at end of word
+  # Return word
 ```
