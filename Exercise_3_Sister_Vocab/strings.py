@@ -1,3 +1,12 @@
+"""
+This program parses sentences, and adds or removes suffixes from root words
+Functions: 
+    add_prefix_un(word)
+    make_word_groups(vocab_words)
+    remove_suffix_ness(word)
+    noun_to_verb(sentence, index)
+"""
+
 def add_prefix_un(word):
     """
 

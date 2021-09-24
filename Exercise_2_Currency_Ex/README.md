@@ -24,23 +24,25 @@ Requirements for this exercise:
 
 ## Current Status
 
-2021-09-20:
+Most recent status shown first
 
-- Status: In progress
-- Notes: After running the checks, the final two requirements are failing. Will need to circle back, pseudocode them and try again.
+### 2021-09-22
 
-2021-09-21:
-
-- Status: In progress
-- Notes:
-  - First PR tonight - added pseudocode for the `exchangable_value` function.
-  - Second PR tonight - coded solution based on pseudocode
-    - Result: Pseudocode is correct, coding followed pseudocode, tests passed. Keeping pseudocode in until all tests pass, then removing all pseudocode for final commit.
-  - Third PR tonight - added pseudocode for the `unexchangeable_value` function
-
-2021-09-22:
-
-- Status: Completed
-- Notes:
+- **Status**: Completed
+- **Notes**:
   - Finished updating code to pass all tests. The error that I was running into was that I forgot to **store** the final variable after casting it as an `int`. Once that minor change was made, all tests passed.
   - Creating an `exchange.md` [file](exchange.md) to capture all the pseudocode for the app so I can move it out of the main app and just have the code and brief comments contained in this version of the app.
+
+### 2021-09-21
+
+- **Status**: In progress
+- **Notes**:
+  - First PR tonight - added pseudocode for the `exchangable_value` function.
+  - Second PR tonight - coded solution based on pseudocode
+    - **Result**: Pseudocode is correct, coding followed pseudocode, tests passed. Keeping pseudocode in until all tests pass, then removing all pseudocode for final commit.
+  - Third PR tonight - added pseudocode for the `unexchangeable_value` function
+
+### 2021-09-20
+
+- **Status**: In progress
+- **Notes**: After running the checks, the final two requirements are failing. Will need to circle back, pseudocode them and try again.
