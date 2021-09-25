@@ -9,7 +9,6 @@ Functions:
 
 def add_prefix_un(word):
     """
-
     :param word: str of a root word
     :return:  str of root word with un prefix
 
@@ -17,12 +16,11 @@ def add_prefix_un(word):
     returns a new word with an 'un' prefix.
     """
 
-    pass
-
+    # Concatenate "un" to beginning of string, return string
+    return "un" + word
 
 def make_word_groups(vocab_words):
     """
-
     :param vocab_words: list of vocabulary words with a prefix.
     :return: str of prefix followed by vocabulary words with
              prefix applied, separated by ' :: '.
@@ -32,20 +30,50 @@ def make_word_groups(vocab_words):
      by ' :: '.
     """
 
-    pass
+    # Read the words passed to the function, parse based on ',', store in array
+    vocab_array = vocab_words.split(',')
 
+    # Store the prefix in a separate variable
+    prefix = vocab_array[0]
+
+    # Create word_groups string to return
+    word_groups = prefix
+
+    # Create separator to put between words in word_groups
+    separator = " :: "
+
+    # Iterate through elements in the array
+    for index, word in enumerate (vocab_array):
+        
+        # Skip the prefix
+        if index != 0:
+
+            # Concatenate the separator and the prefix and current word to the existing string
+            word_groups = word_groups + separator + prefix + word
+    
+    return word_groups
 
 def remove_suffix_ness(word):
     """
-
     :param word: str of word to remove suffix from.
     :return: str of word with suffix removed & spelling adjusted.
 
     This function takes in a word and returns the base word with `ness` removed.
     """
 
-    pass
+    # TODO: There's got to be a better implementation of this than by hardcoding indexes
 
+    # Read the string passed to the function and remove the last 4 characters
+    root = word[-4:]
+
+    # Read final character in the root word, if it is the 'i' character
+    if root[-1] == 'i':
+
+        # Replace the 'i' with 'y'
+        root = root[0:-1] + 'y'
+
+    # Return root word
+    return root
 
 def noun_to_verb(sentence, index):
     """
@@ -60,4 +88,16 @@ def noun_to_verb(sentence, index):
     adjective as a verb.
     """
 
-    pass
+    # NOTE: Index passed is by word, not by letter
+    
+    # Store the suffix in a variable
+    suffix = 'en'
+
+    # Split the sentence into a list of words that can be indexed
+    noun = sentence.split()
+
+    # Use the index passed to store the noun to convert to a verb
+    verb = noun[index]
+
+    # Add 'en' suffix to the verb and return
+    return verb + suffix
