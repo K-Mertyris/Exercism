@@ -31,6 +31,7 @@ Most recent updates shown first.
   - **Results**: 1 test passed, 15 tests failed
   - **Notes**: I'm getting the outputs I expect, but getting errors from Exercism (pasted below in the `Function Results` bullet)
   - **Thoughts**: Looking at the failure results in .md, I think I know what's wrong and it should be a simple fix. Code switches between `"` and `'` in certain places, going to clean that up and see how that impacts the results.
+    - **Results**: That's a big nope, still getting 15 fails. Will pick this up tomorrow. I'm sure it's something simple.
   - **Function Results**:
     - `add_prefix_un`: Passed
     - `make_word_groups`: Failed
