@@ -30,6 +30,7 @@ Most recent updates shown first.
 - **Notes**: Putting the code in the program based on the pseudocode. Had to change a couple things in the pseudocode as it forced me to read the directions again and get clarification.
   - **Results**: 1 test passed, 15 tests failed
   - **Notes**: I'm getting the outputs I expect, but getting errors from Exercism (pasted below in the `Function Results` bullet)
+  - **Thoughts**: Looking at the failure results in .md, I think I know what's wrong and it should be a simple fix. Code switches between `"` and `'` in certain places, going to clean that up and see how that impacts the results.
   - **Function Results**:
     - `add_prefix_un`: Passed
     - `make_word_groups`: Failed
@@ -79,14 +80,14 @@ Most recent updates shown first.
       CODE RUN
       
       input_data = ['Look at the bright sky.',
-              'His expression went dark.',
-              'The bread got hard after sitting out.',
-              'The butter got soft in the sun.',
-              'Her face was filled with light.',
-              'The morning fog made everything damp with mist.',
-              'He cut the fence pickets short by mistake.',
-              'Charles made weak crying noises.',
-              'The black oil got on the white dog.']
+                    'His expression went dark.',
+                    'The bread got hard after sitting out.',
+                    'The butter got soft in the sun.',
+                    'Her face was filled with light.',
+                    'The morning fog made everything damp with mist.',
+                    'He cut the fence pickets short by mistake.',
+                    'Charles made weak crying noises.',
+                    'The black oil got on the white dog.']
       index_data = [-2, -1, 3, 3, -1, -3, 5, 2, 1]
       result_data = ['brighten', 'darken', 'harden', 'soften',
                      'lighten', 'dampen', 'shorten', 'weaken', 'blacken']
