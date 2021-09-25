@@ -41,8 +41,13 @@ def add_prefix_un(word):
 def make_word_groups(vocab_words):
   # Pseudocode:
   # Read array
-  # Take array index[0] and concatenate at the beginning of index[1] through index[3]
-  # Store prefix and new values in single string separated by spaces and double colons <prefix> :: <str1> :: <str2> :: ...
+  # Split array into separate elements based on comma delimiter
+  #   May need to remove a space if the space is part of the full string
+  #   Pattern for input: [<prefix>, <word_1>, <word_2> ... <word_n>]
+  # Iterate through separate elements
+  #   concatenate prefix in front of words
+  #   add each word to string to send back via return
+  #   Pattern for output: <prefix> :: <str1> :: <str2>
   # Return string
 
 def remove_suffix_ness(word):
