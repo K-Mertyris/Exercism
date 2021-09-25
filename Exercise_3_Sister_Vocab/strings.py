@@ -31,7 +31,7 @@ def make_word_groups(vocab_words):
     """
 
     # Read the words passed to the function, parse based on ',', store in array
-    vocab_array = vocab_words.split(',')
+    vocab_array = vocab_words.split(",")
 
     # Store the prefix in a separate variable
     prefix = vocab_array[0]
@@ -67,10 +67,10 @@ def remove_suffix_ness(word):
     root = word[-4:]
 
     # Read final character in the root word, if it is the 'i' character
-    if root[-1] == 'i':
+    if root[-1] == "i":
 
         # Replace the 'i' with 'y'
-        root = root[0:-1] + 'y'
+        root = root[0:-1] + "y"
 
     # Return root word
     return root
@@ -91,7 +91,7 @@ def noun_to_verb(sentence, index):
     # NOTE: Index passed is by word, not by letter
     
     # Store the suffix in a variable
-    suffix = 'en'
+    suffix = "en"
 
     # Split the sentence into a list of words that can be indexed
     noun = sentence.split()
