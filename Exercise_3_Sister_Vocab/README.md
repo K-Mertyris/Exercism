@@ -24,6 +24,18 @@ Requirements for this exercise:
 
 Most recent updates shown first.
 
+### 2021-09-26
+
+- **Status**: In Progress
+- **Notes**: Looking at the test results a little closer, I'm seeing the errors I made, breakdown below by function:
+  - `make_word_groups` - function will have an array as an input, not a single string with comma separators. Changed the code to match input file; results = passed all tests.
+  - `remove_suffix_ness` - Found the error. Instead of cutting off the suffix, I cut off the word. I was doing:
+    - `root = word[-4:]` which grabs the last 4 characters of the input string and stores it
+    - `root = word[:-4]` which takes the root word and removes the "-ness" suffix (since "ness" is 4 characters long)
+    - Changed the code, reran tests, all passed.
+  - `noun_to_verb` - Found the error. Some of the words that were passed ended with a period. Added an `if` statement to test for the period and remove it if present. If no period present, append the suffix and return the value.
+  - After changes made, all tests passed. Couple of notes here and some tech debt to make the functions a bit more streamlined, remove hardcoding for finding suffixes and appending suffixes.
+
 ### 2021-09-24
 
 - **Status**: In Progress
