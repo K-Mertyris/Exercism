@@ -21,6 +21,8 @@ def add_prefix_un(word):
 
 def make_word_groups(vocab_words):
     """
+    This function is expecting an array of words to be passed, not a sentence.
+    
     :param vocab_words: list of vocabulary words with a prefix.
     :return: str of prefix followed by vocabulary words with
              prefix applied, separated by ' :: '.
@@ -30,10 +32,6 @@ def make_word_groups(vocab_words):
      by ' :: '.
     """
     
-    # From tests, looks like array is passed, no need to parse on ","
-    # Read the words passed to the function, parse based on ',', store in array
-    # vocab_array = vocab_words.split(",")
-
     # Store the prefix in a separate variable
     prefix = vocab_words[0]
 
@@ -64,7 +62,6 @@ def remove_suffix_ness(word):
 
     # TODO: There's got to be a better implementation of this than by hardcoding indexes
 
-    # Flipped the index here - should have been root = word[:-4], not root = word[-4:]
     # Read the string passed to the function and remove the last 4 characters
     root = word[:-4]
 
@@ -79,6 +76,9 @@ def remove_suffix_ness(word):
 
 def noun_to_verb(sentence, index):
     """
+    This function is expecting a sentence and an index
+        - The sentence can be any string of characters placed together and can end with a period, but no other punctuation
+        - The index passed to the function is the index of the word to pull out of the sentence and change from a noun to a verb
 
     :param sentence: str that uses the word in sentence
     :param index:  index of the word to remove and transform

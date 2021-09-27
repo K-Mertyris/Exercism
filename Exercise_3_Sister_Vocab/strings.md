@@ -1,6 +1,6 @@
 # Purpose
 
-The purpose of this doc is to hold all the pseudocode for the `strings.py` app. This file helps me to create a habit of thinking about the challenge before doing any coding.
+The purpose of this doc is to hold all the pseudocode for the [`strings.py`](strings.py) app. This file helps me to create a habit of thinking about the challenge before doing any coding.
 
 Placing the pseudocode in this document will also allow me to keep the codebase clean, ensuring it only has comments for the specific functions called and steps taken.
 
