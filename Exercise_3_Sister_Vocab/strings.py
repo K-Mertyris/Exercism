@@ -1,6 +1,6 @@
 """
 This program parses sentences, and adds or removes suffixes from root words
-Functions: 
+Functions:
     add_prefix_un(word)
     make_word_groups(vocab_words)
     remove_suffix_ness(word)
@@ -29,12 +29,13 @@ def make_word_groups(vocab_words):
     with the prefix  and the words with prefix applied, separated
      by ' :: '.
     """
-
+    
+    # From tests, looks like array is passed, no need to parse on ","
     # Read the words passed to the function, parse based on ',', store in array
-    vocab_array = vocab_words.split(",")
+    # vocab_array = vocab_words.split(",")
 
     # Store the prefix in a separate variable
-    prefix = vocab_array[0]
+    prefix = vocab_words[0]
 
     # Create word_groups string to return
     word_groups = prefix
@@ -43,7 +44,7 @@ def make_word_groups(vocab_words):
     separator = " :: "
 
     # Iterate through elements in the array
-    for index, word in enumerate (vocab_array):
+    for index, word in enumerate (vocab_words):
         
         # Skip the prefix
         if index != 0:
@@ -63,8 +64,9 @@ def remove_suffix_ness(word):
 
     # TODO: There's got to be a better implementation of this than by hardcoding indexes
 
+    # Flipped the index here - should have been root = word[:-4], not root = word[-4:]
     # Read the string passed to the function and remove the last 4 characters
-    root = word[-4:]
+    root = word[:-4]
 
     # Read final character in the root word, if it is the 'i' character
     if root[-1] == "i":
@@ -99,5 +101,11 @@ def noun_to_verb(sentence, index):
     # Use the index passed to store the noun to convert to a verb
     verb = noun[index]
 
-    # Add 'en' suffix to the verb and return
+    # Test for period at end of string
+    if verb[-1] == ".":
+
+        # Remove the period by appending the suffix at index -1, return result
+        return verb[:-1] + suffix
+
+    # If no period at end of word, append suffix, return result
     return verb + suffix
