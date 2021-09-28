@@ -14,7 +14,7 @@ This table contains the exercises completed, the tracks the exercises are on, th
 
 | Order Completed | Exercise and Exercism Link                                                                        | Track        | Date Completed | Local Link                               |
 | --------------- | ------------------------------------------------------------------------------------------------- | ------------ | -------------- | ---------------------------------------- |
-| 1               | [Guido's Gorgeous Lasagne](https://exercism.org/tracks/python/exercises/guidos-gorgeous-lasagna)  | [Basics][1]  | 2021-09-19     | [Lasagna](Basics_1_Lasagna/README.md)    |
+| 1               | [Guido's Gorgeous Lasagna](https://exercism.org/tracks/python/exercises/guidos-gorgeous-lasagna)  | [Basics][1]  | 2021-09-19     | [Lasagna](Basics_1_Lasagna/README.md)    |
 | 2               | [Currency Exchange](https://exercism.org/tracks/python/exercises/currency-exchange)               | [Numbers][2] | 2021-09-22     | [Exchange](Numbers_1_Exchange/README.md) |
 | 3               | [Little Sister's Vocabulary](https://exercism.org/tracks/python/exercises/little-sisters-vocab)   | [Strings][3] | 2021-09-26     | [Strings](Strings_1_Vocab/README.md)     |
 | 4               | [Ghost Gobble Arcade Game](https://exercism.org/tracks/python/exercises/ghost-gobble-arcade-game) | [Bools][4]   | 2021-09-27     | [Arcade Game](Bools_1_Arcade/README.md)  |
