@@ -24,6 +24,12 @@ Requirements for this exercise:
 
 Most recent updates shown first.
 
+### 2021-09-27
+
+- **Status**: Complete
+- **Notes**: Wrote the code for this exercise tonight, went pretty quickly. Things I learned:
+  - The Exercism Python linter prefers the `is` keyword when evaluating experessions versus the `==` operator. I could have also evaluated the variables directly in the `if` statements, but I've found that reading through code that's built that way takes me out of just *reading* the code and now I have to interpret it as well, so I have a tendency to avoid that convention when programming. I have the same avoidance for using `NOT`.
+
 ### 2021-09-26
 
 - **Status**: In Progress
