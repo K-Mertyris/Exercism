@@ -27,7 +27,15 @@ Resource links:
 
 Most recent updates shown first.
 
+### 2021-09-28
+
+- **Status**: Complete
+- **Notes**: Set up last night to work the code. Looks pretty straightforward, only two functions. Couldn't find the formula I was looking for, so I'll likely brute force solving the equation for the sum of all grains on the chessboard.
+- **Results**: All tests passed, simple code. Created a `TODO` to come back and time the functions once I learn a bit more.
+
 ### 2021-09-27
 
 - **Status**: In Progress
-- **Notes**: Setting up the folders and creating the basic files. Adding this exercise to the main [`README.md`](../README.md) in the root folder
+- **Notes**: Setting up the folders and creating the basic files. Adding this exercise to the main [`README.md`](../README.md) in the root folder.
+  - [`grains.md`](grains.md): Space to create pseudocode and capture other notes about the project
+  - [`grains.py`](grains.py): Copied code from Exercism exercise
