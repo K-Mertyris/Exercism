@@ -14,7 +14,7 @@ Concepts highlighted in the introduction:
   - `for index, item in enumerate(<str>)`
 - Strings can be concatenated using:
   - The `+` operator
-  - `<string>.join(<iterable>)
+  - `<string>.join(<iterable>)`
 - **Immutability**: value of object in memory ***cannot*** change
   - Functions that operate on strings will return a new instance of the `str` object **instead of modifying** the original `str`
 - Full list of string methods can be found in the [Python documentation](https://docs.python.org/3/library/stdtypes.html#string-methods)
