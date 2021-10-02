@@ -24,6 +24,12 @@ Resource links:
 
 Most recent updates shown first.
 
+### 2021-10-01
+
+- **Status**: Complete
+- **Notes**: Happy October! Hope everyone is having a good National Hispanic American Heritage Month! For those not in the United States, I hope your culture is celebrated and reflected on! We all need a place where we feel like we belong, I hope you are able to find that place!
+  - Finished up the exercise, really simple considering that the exercise seems to focus on getting the coder to understand that Python has some **very powerful** out-of-the-box functions. All tests passed.
+
 ### 2021-09-29
 
 - **Status**: In Progress
