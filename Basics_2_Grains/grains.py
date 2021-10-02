@@ -31,10 +31,8 @@ def total():
     # TODO: Loop back around to time this function. See if there's a more efficient way to calculate this sum
 
     # Create and initialize variables
-    chessboard_squares = 64
-    base_number = 2
-    total = 0
-
+    chessboard_squares, base_number, total = 64, 2, 0
+    
     # Loop through all squares on the chessboard, sum result
     for i in range(chessboard_squares):
         total += base_number ** i
