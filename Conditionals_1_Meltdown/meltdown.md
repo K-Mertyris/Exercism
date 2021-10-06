@@ -53,6 +53,5 @@ def fail_safe(temperature, neutrons_produced_per_second, threshold):
     # Test:
     #   If temperature * neutrons_produced_per_second < 90% of threshold, return `LOW`
     #   If temperature * neutrons_produced_per_second > 90% of threshold and < 100% of threshold, return `NORMAL`
-    #   If neither of the cases above are true, return `DANGER`
-
+    #   If neither of the cases above are true, return `DANGER`    
 ```

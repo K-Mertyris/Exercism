@@ -23,6 +23,11 @@ Resource links:
 
 Most recent updates shown first.
 
+### 2021-10-05
+
+- **Status**: Completed
+- **Notes**: Getting weird feedback from the Exercism linter. It's saying that there's an unneccessary `elif` after `return`. I don't see how else I could run the conditionals unless I saved the resulting values from the tests into a variable and then passing that variable to the return statement at the end of the function instead of passing `return` as soon as the test meets a `True` condition. Gonna leave it for now, may come back after I understand the linting rules for Python a little better. Right now, it's good enough.
+
 ### 2021-10-04
 
 - **Status**: In Progress
