@@ -20,7 +20,7 @@ This table contains the exercises completed, the tracks the exercises are on, th
 | 4               | [Ghost Gobble Arcade Game](https://exercism.org/tracks/python/exercises/ghost-gobble-arcade-game) | [Bools][4]          | 2021-09-27     | [Arcade Game](Bools_1_Arcade/README.md)       |
 | 5               | [Grains](https://exercism.org/tracks/python/exercises/grains)                                     | [Basics][1]         | 2021-09-28     | [Grains](Basics_2_Grains/README.md)           |
 | 6               | [Little Sister's Essay](https://exercism.org/tracks/python/exercises/little-sisters-essay)        | [String Methods][5] | 2021-10-01     | [Essay](String_Methods_1_Essay/README.md)     |
-| 7               | [Meltdown Mitigation](https://exercism.org/tracks/python/exercises/meltdown-mitigation)           | [Conditionals][6]   | In Progress    | [Meltdown](Conditionals_1_Meltdown/README.md) |
+| 7               | [Meltdown Mitigation](https://exercism.org/tracks/python/exercises/meltdown-mitigation)           | [Conditionals][6]   | 2021-10-05     | [Meltdown](Conditionals_1_Meltdown/README.md) |
 
 [1]: https://exercism.org/tracks/python/concepts/basics
 [2]: https://exercism.org/tracks/python/concepts/numbers
