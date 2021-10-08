@@ -82,6 +82,7 @@ Concepts highlighted in the introduction:
   - `multiplied_list = original_list * 3`
   - multiplied_list = ['cat', 'dog', 'elephant', 'cat', 'dog', 'elephant', 'cat', 'dog', 'elephant']`
 - Appending through iteration
+
     ```python
     list_1 = ["cat", "Tabby"]
     list_2 = ["George", 5]
