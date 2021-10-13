@@ -30,13 +30,22 @@ Concepts highlighted in the introduction:
 - Declare lists: `<list> = []`, `<list> = [item1]`, `list = [item1, item2, itemn]`
   - Line breaks can be used when there are many elements or nested data structures within a list
 - `list()` constructor can be used as an empty or iterable argument
-  - `example_list_1 = list()`
-  - `example_list_2 = list(("Parrot", "Bird", 334782))`
-  - `example_list_3 = list({2, 3, 5, 7, 11})`
-  - Printed:
-    - example_list_1 = ""
-    - example_list_2 = ['Parrot', 'Bird', 334782]
-    - example_list_3 = [2, 3, 5, 7, 11]
+
+```python
+>>> example_list_1 = list()
+>>> example_list_2 = list(("Parrot", "Bird", 334782))
+>>> example_list_3 = list({2, 3, 5, 7, 11})
+
+>>> example_list_1
+""
+
+>>> example_list_2
+['Parrot', 'Bird', 334782]
+
+>>> example_list_3
+[2, 3, 5, 7, 11]
+```
+
 - Using a `list` constructor with a string will have the list store individual letters of the string into the list
   - `example_list_string = list("Timbuktu")`
   - example_list_string = ['T', 'i', 'm', 'b', 'u', 'k', 't', 'u']
@@ -57,42 +66,56 @@ Concepts highlighted in the introduction:
   - `<list>[start:stop]`
     - NOTE: The `stop` index is not returned in the slice, the `start` is
   - Slice notation also allows for a `step` parameter where
-    - `<list>[start:stop:step]`
-    - `full_list = [0, 1, 2, 3, 4, 5, 6, 7, 8]`
-    - `skip_2_list = full_list[::2]`
-    - skip_2_list = 0, 2, 4, 6, 8
+
+```python
+>>> <list>[start:stop:step]
+>>> full_list = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+>>> skip_2_list = full_list[::2]
+>>> skip_2_list
+[0, 2, 4, 6, 8]
+```
 
 ### Iterating and Combining Lists
 
 - Lists supply an iterator, can be iterated like sequence types
 
-    ```python
-    for item in <list>:
-        print(item)
+```python
+for item in <list>:
+    print(item)
 
-    for number in numbers_to_cube:
-        print(number ** 3)
-    ```
+for number in numbers_to_cube:
+    print(number ** 3)
+```
 
 - Lists can also be combined using various techniques
-  - `concatenate_list = ["Bob", 5] + ["dog", "Steve"]`
-  - concatenate_list = ['Bob', 5, 'dog', 'Steve']
+
+```python
+  >>> concatenate_list = ["Bob", 5] + ["dog", "Steve"]
+  >>> concatenate_list 
+  ['Bob', 5, 'dog', 'Steve']
+```
+
 - Multiplying a list concatenates 'n' copies of the list
-  - `original_list = ["cat", "dog", "elephant"]`
-  - `multiplied_list = original_list * 3`
-  - multiplied_list = ['cat', 'dog', 'elephant', 'cat', 'dog', 'elephant', 'cat', 'dog', 'elephant']`
+
+```python
+  >>> original_list = ["cat", "dog", "elephant"]
+  >>> multiplied_list = original_list * 3
+  >>> multiplied_list 
+  ['cat', 'dog', 'elephant', 'cat', 'dog', 'elephant', 'cat', 'dog', 'elephant']`
+```
+
 - Appending through iteration
 
-    ```python
-    list_1 = ["cat", "Tabby"]
-    list_2 = ["George", 5]
+```python
+list_1 = ["cat", "Tabby"]
+list_2 = ["George", 5]
 
-    for item in list_1:
-        list_2.append(item)
+for item in list_1:
+  list_2.append(item)
 
-    list_2
-    ['George', 5, 'cat', 'Tabby']
-    ```
+list_2
+['George', 5, 'cat', 'Tabby']
+```
 
 ## Pseudocode
 
@@ -161,5 +184,5 @@ def maybe_double_last(hand):
     # If value of last item in list is equal to "11", double it
     # If value of last item in list is not equal to "11", do nothing
     # Return list
-    
+
 ```
