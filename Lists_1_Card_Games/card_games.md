@@ -101,23 +101,65 @@ Goal: pass all tests without errors
 ```Python
 def get_rounds(number):
     # Pseudocode
+    # Read incoming number
+    # Create a list with the number as the first element
+    # Add two sequential entries to the list
+    # Return list
 
 def concatenate_rounds(rounds_1, rounds_2):
     # Pseudocode
+    # Read two incoming lists
+    # Concatenate the two lists, with rounds_1 being first in the list, rounds_2 being second
+    # Return concatenated list
+    #   Note that the concatenated list is not a 2 dimensional array, still a "flat" (1-dimensional) list
 
 def list_contains_round(rounds, number):
     # Pseudocode
+    # Read incoming list and incoming integer
+    # Search list to see if integer is contained in the list
+    # Return True if integer is in list, return False if integer is not in list
 
 def card_average(hand):
     # Pseudocode
+    # Read incoming list (of integers)
+    # Find average of list
+    #   Count number of entries in list
+    #   Add all entries in list together
+    #   Divide sum of all entries by number of entries
+    # Return average (double)
 
 def approx_average_is_average(hand):
     # Pseudocode
+    # Read incoming list (of integers)
+    # Store 'shortcut' averages
+    #   first_last = sum of first and last numbers in list / 2
+    #     (index[0] + index[-1]) / 2
+    #   median = "middle" number of the list
+    #     index[(len(<list>) - 1) / 2]
+    # Determine real average
+    #   call card_average, store average
+    # If either variable (first_last, median) is equal to the real average
+    #   Return True
+    # Oherwise return False
 
 def average_even_is_average_odd(hand):
     # Pseudocode
+    # Read incoming list of integers
+    # Loop through list
+    #   Add all integers in the even positions (remember base-0 indexing is different than counting)
+    #   Count how many integers in the even positions are added
+    #   Add all integers in the odd positions (remember base-0 indexing is different than counting)
+    #   Count how many integers in the odd positions are added
+    #   Calculate even and odd position averages
+    # Test if even and odd position averages are equal to each other
+    #   If yes, return True
+    # Otherwise return False
 
 def maybe_double_last(hand):
     # Pseudocode
-
+    # Read incoming list
+    # If value of last item in list is equal to "11", double it
+    # If value of last item in list is not equal to "11", do nothing
+    # Return list
+    
 ```

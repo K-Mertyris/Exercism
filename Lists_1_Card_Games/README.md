@@ -23,6 +23,11 @@ Resource links:
 
 Most recent updates shown first.
 
+### 2021-10-12
+
+- **Status**: In Progress
+- **Notes**: Writing out pseudocode. Not doing too much tonight as I need to get back to work. Will code more tomorrow.
+
 ### 2021-10-07
 
 - **Status**: In Progress
