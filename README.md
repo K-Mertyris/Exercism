@@ -21,7 +21,7 @@ This table contains the exercises completed, the tracks the exercises are on, th
 | 5               | [Grains](https://exercism.org/tracks/python/exercises/grains)                                     | [Basics][1]         | 2021-09-28     | [Grains](Basics_2_Grains/README.md)           |
 | 6               | [Little Sister's Essay](https://exercism.org/tracks/python/exercises/little-sisters-essay)        | [String Methods][5] | 2021-10-01     | [Essay](String_Methods_1_Essay/README.md)     |
 | 7               | [Meltdown Mitigation](https://exercism.org/tracks/python/exercises/meltdown-mitigation)           | [Conditionals][6]   | 2021-10-05     | [Meltdown](Conditionals_1_Meltdown/README.md) |
-| 8               | [Card Games](https://exercism.org/tracks/python/exercises/card-games)                             | [Lists][7]          | In Progress    | [Card Games](Lists_1_Card_Games/README.md)    |
+| 8               | [Card Games](https://exercism.org/tracks/python/exercises/card-games)                             | [Lists][7]          | 2021-10-13     | [Card Games](Lists_1_Card_Games/README.md)    |
 
 [1]: https://exercism.org/tracks/python/concepts/basics
 [2]: https://exercism.org/tracks/python/concepts/numbers
