@@ -15,9 +15,13 @@ Resource links:
 
 ### Requirements for this exercise
 
-1. Check for criticality
-2. Determine the Power output range
-3. Create a Fail Safe Mechanism
+1. Track poker rounds
+2. Track all rounds from multiple tables in the same list
+3. Find prior rounds
+4. Calculate average card values of a hand
+5. Calculate alternate average values
+6. Calculate additional averages
+7. Determine if a card's value gets doubled
 
 ## Current Status
 
